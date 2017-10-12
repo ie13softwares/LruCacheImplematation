@@ -1,5 +1,6 @@
 var lrucache;
-/* Initialize LRU cache with default limit being 5 items just ot be on safe side.*/
+/* Initialize LRU cache with default limit being 10 items just ot be on safe side*/
+//Creating Lru Map.
 function lru(limit) {
     this.size = 0;
     (typeof limit == "number") ? this.limit = limit : this.limit = 5;
@@ -8,6 +9,7 @@ function lru(limit) {
     this.tail = null;
 }
 
+//Using Java Script Objects properties.
 lru.prototype.lrunode = function(key, value) {
     if (typeof key != "undefined" && key !== null) {
         this.key = key;
@@ -71,7 +73,7 @@ lru.prototype.get = function(key) {
     }
 };
 
-/* Remove a single entry from the cache */
+/* Remove an entry from the cache */
 lru.prototype.remove = function(key) {
     var node = this.map[key];
     if (node.prev !== null) {
@@ -88,8 +90,9 @@ lru.prototype.remove = function(key) {
     this.size--;
 };
 
+//Function to create Cache and Initilize it for the first time. 
 function CreateCache() {
-      var size = 1;
+      var size = 10;
       lrucache = new lru(size);
       console.log("Created cache with size " + size);
     }
