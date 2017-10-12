@@ -1,6 +1,7 @@
 <html>
 <head>
 <script src="lru.js"></script>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
 Enter a word:
