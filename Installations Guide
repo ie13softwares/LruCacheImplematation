@@ -1,0 +1,42 @@
+Update ubuntu with sudo apt-get update
+
+
+-------------------------------------------
+Installaing Apache Server:
+-------------------------------------------
+
+Run the following commands:
+
+$ sudo apt-get update
+$ sudo apt-get install apache2
+
+Apache can be statred, stoped and restarted with the following commands. 
+
+$ sudo service apache2 start
+$ sudo service apache2 stop
+$ sudo service apache2 restart
+
+- It can be verified for fuctioning at http://<server Ip address; By default, it would be localhost>
+- It would be better to configure servers public ip address, to supress warining messages from apache.
+- We can use curl to know the Public IPAddress.
+	sudo apt-get install curl
+	curl http://icanhazip.com
+- Add the line "ServerName <Server_ip>" at /etc/apache2/apache2.conf
+- If there is already another server running, the listening port can be canged at 
+	/etc/apache2/ports.conf
+	
+	Add listen <port number> to the file. 
+
+--------------------------------------------------
+Installing mysql server:  
+--------------------------------------------------
+
+$ sudo apt-get install mysql-server
+
+Provide it username and password, create database and and a table with two columns (both Var Char), which can hold word and its meaning. 
+
+---------------------------------------------------
+Installing PHP
+---------------------------------------------------
+
+$ sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
