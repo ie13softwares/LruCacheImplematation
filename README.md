@@ -34,5 +34,4 @@ Note:
 -------------------------
 - For convience purpose A concole message on call to database, call to the Cache are included in the code. This can be verified from Developer Console of the browser. 
 - The code is commented as required. Please ping if further information is necessary. 
-
-
+- The program takes a word as input and gives its meaning as output. When the word is not present, it retuns black value. 
