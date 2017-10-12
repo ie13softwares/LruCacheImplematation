@@ -24,6 +24,11 @@ Place the following files -  lru.js, getMeaning.php, index.php in /var/www/html 
 - If there is a problem in copying the files to /var/www/html folder, Access can be gained by using the command 
 sudo nautilas. 
 
+Note: By default, Apache will look for index.html. 
+This need to be changed in the file:
+$ sudo nano /etc/apache2/mods-enabled/dir.conf
+
+Move index.php to the first in the list of files. 
 
 Note:
 -------------------------
