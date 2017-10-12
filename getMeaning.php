@@ -1,6 +1,6 @@
 <?php
 	$word = $_GET["word"];
-        //Edit the details according to your setup. 
+        //Edit the details according to your database setup. 
         $username = "root";
         $password = "murari";
         $hostname = "localhost";
