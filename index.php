@@ -12,11 +12,12 @@
 
 	<body>
 		<div>
-		<p>The Program retuns the meaing of the word entered, </br> If the word is not present, It returns Black value. </p>
+		<p>The Program retuns the meaing of the word entered, </br>If the word is not present, It returns a blank value. </p>
 		<p style="font-size:20px">Enter a word:<p>
 		<input type = "text" id="key" onfocus="this.value='';">
 		<button type ="button" onclick="getMean()" style="text-align:center;">Get Meaning</button>
 		<p id = "ans"></p>
-		</div>
+		</div>murari
+
 	</body>
 </html>
