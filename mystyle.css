@@ -1,0 +1,16 @@
+
+		body{
+			padding-top: 20%;
+    		padding-right: 40%;
+    		padding-bottom: 50%;
+    		padding-left: 40%;
+		}
+		input {
+			height: 50px;
+			width:250px;
+		}
+
+		button{
+			height: 30px;
+			background-color: #99ff9;
+		}
