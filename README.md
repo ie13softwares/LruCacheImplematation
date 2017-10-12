@@ -5,6 +5,8 @@ Pre Requisites:
 -----------------------------------------------------------------------------
 Latest version of the following installed and running. 
 
+(Please refer to installation Guide for instructions on Installing)
+
 1. mySql
 2. Apache Server running at local host. 
   If there is already a server running, you may need to change the port at which apache is listening. 
