@@ -54,6 +54,11 @@ lru.prototype.set = function(key, value) {
 };
 
 /* Fetching data from cache */
+/*
+    Using Ajax, to establish a call to getMeaning.php, which inturn establishes a connection to database and 
+    fetches data from it. 
+    Using Ajax, so that, the need for refresh after the call can be prevented. 
+*/
 lru.prototype.get = function(key) {
     if (this.map[key]) {
         var value = this.map[key].value;
