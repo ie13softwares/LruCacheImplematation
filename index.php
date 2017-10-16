@@ -17,7 +17,7 @@
 		<input type = "text" id="key" onfocus="this.value='';">
 		<button type ="button" onclick="getMean()" style="text-align:center;">Get Meaning</button>
 		<p id = "ans"></p>
-		</div>murari
+		</div>
 
 	</body>
 </html>
