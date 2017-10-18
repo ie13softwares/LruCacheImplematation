@@ -18,7 +18,12 @@ if(isset($_GET['word'])){
 	$result = $con->query($sql);
 	$row = $result->fetch_array();
 		$result = $row["meaning"];
-		echo $result;
+		if(is_null($result)){
+			echo "The meaning of the required word is not present. Try another!";
+		}else{
+			echo $result;
+		}
+		
 
 
 }
