@@ -1,5 +1,5 @@
 <html>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
 	<head >
 		<script src="lru.js"></script>
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
