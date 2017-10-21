@@ -1,5 +1,5 @@
 
-		body{
+		div{
 			padding-top: 20%;
     		padding-right: 40%;
     		padding-bottom: 50%;
@@ -12,5 +12,6 @@
 
 		button{
 			height: 30px;
-			background-color: #99ff9;
+			color: #cc0033;
 		}
+
